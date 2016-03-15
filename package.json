@@ -1,32 +1,28 @@
 {
-  "name": "info_bot",
-  "version": "0.1.5",
-  "description": "A bot that collects information from a user, built for green-bot.",
-  "main": "index.coffee",
+  "name": "lua_sample_bot",
+  "version": "0.1.0",
+  "description": "A lua bot that says hello",
+  "main": "hello.lua",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "mongoimport -d greenbot -c Scripts -h 127.0.0.1 -p 27017 bot.json --jsonArray"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/green-bot/info_bot.git"
+    "url": "https://github.com/green-bot/lua_bot.git"
   },
   "bin": {
-    "info_bot": "./info.coffee"
+    "info_bot": "lua hello.lua"
   },
   "keywords": [
     "green-bot",
     "greenbot",
     "bot",
-    "bashbot"
+    "bashbot",
+    "lua"
   ],
-  "author": "Thomas Howe <ghostofbasho@gmail.com> (http://www.thomashowe.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/green-bot/info_bot/issues"
-  },
-  "dependencies": {
-    "coffee": "3.2.1",
-    "prompt": "1.0.0"
+    "url": "https://github.com/green-bot/lua_bot/issues"
   }
 }

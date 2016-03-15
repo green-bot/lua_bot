@@ -1,52 +1,22 @@
 {
-  "default_cmd": "coffee info.coffee",
-  "default_path": "./node_modules/info_bot/",
+  "default_cmd": "lua hello.lua",
+  "default_path": "./node_modules/lua_bot/",
   "default_settings": [
     {
-      "name": "ADDRESS",
-      "value": "You can also email us at matt.lukens@green-bot.com",
-      "type": "text"
-    },
-    {
-      "name": "AWAY",
-      "value": "false",
-      "type": "boolean"
-    },
-    {
-      "name": "HOURS",
-      "value": "We are open from 9 to 5 Monday through Friday",
-      "type": "text"
-    },
-    {
       "name": "PROMPT_1",
-      "value": "Thank you for texting in and trying out KISST4INFO, a simple way for your customers to contact your business using text and social messaging.",
-      "type": "text"
-    },
-    {
-      "name": "PROMPT_2",
-      "value": "KISST4INFO responds on behalf of your team in real time, quickly and efficiently, delivering any kind of information, such as http://bit.ly/15GmEEr ",
-      "type": "text"
-    },
-    {
-      "name": "SIGNATURE",
-      "value": "Thank you, you can visit us on the web at http://www.green-bot.com",
-      "type": "text"
-    },
-    {
-      "name": "SPECIALS",
-      "value": "Do you want to become a dealer for KISST Services? Or do you want to use it for your business? Call or text 401-885-7764 to discuss your needs",
+      "value": "Welcome to the sample lua bot. Give me something to do.", 
       "type": "text"
     }
   ],
-  "desc": "A bot that collects information from a user, built for green-bot.",
+  "desc": "A sample bot written in lua",
   "icon_class": "announcement",
-  "name": "information",
+  "name": "insert-emoticon",
   "owner_cmd": "",
   "tags": [
     "basic",
-    "retail",
-    "consumer"
+    "tutorial",
+    "lua"
   ],
-  "short_desc": "A more programmable information script",
-  "repo_link": "https://github.com/green-bot/info_bot.git"
+  "short_desc": "A starter bot for lua types",
+  "repo_link": "https://github.com/green-bot/lua_bot.git"
 }
