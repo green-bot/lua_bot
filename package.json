@@ -11,9 +11,6 @@
     "type": "git",
     "url": "https://github.com/green-bot/lua_bot.git"
   },
-  "bin": {
-    "info_bot": "lua hello.lua"
-  },
   "keywords": [
     "green-bot",
     "greenbot",
